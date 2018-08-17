@@ -1,3 +1,5 @@
+#Original Source: https://github.com/awni/backgammon
+
 import random
 import time
 import numpy as np
