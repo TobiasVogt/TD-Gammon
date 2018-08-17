@@ -6,7 +6,7 @@ import numpy as np
 import random
 import os
 
-class NeuralNetModel(ABC):
+class NeuralNetModel(ABC): #based on https://github.com/fomorians/td-gammon
     
     def __init__(self, sess, input_size = 198, hidden_size = 40, output_size = 1, name = None, restore=False):
     
